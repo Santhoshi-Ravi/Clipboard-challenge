@@ -1,0 +1,252 @@
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+  margin: 0px;
+
+}
+h2, h3{
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+.text{
+  padding: 5rem 20rem 2rem 20rem;
+}
+
+/* Introduction */
+#Intro{
+  background-image: url("images\\bg-header-desktop.png");
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  margin: 0px;
+}
+
+/* Buttons */
+.buttons{
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 4px 10px 0 hsl(171, 66%, 44%);
+  border-radius: 30px;
+  padding: 1rem;
+  border: none;
+  color: white;
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 1rem;
+}
+.buttons-mac{
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 4px 10px 0 hsl(233, 100%, 69%);
+}
+
+
+/* Pros */
+.pros-desktop{
+  height: 30rem;
+  width: 40rem;
+  right: 10rem;
+}
+
+.image-pros{
+  height: 400px;
+  width: 200px;
+  display: inline-block;
+  float: left;
+  right: 90%;
+  position: absolute;
+}
+
+.text-pros{
+  display: inline-block;
+  margin-left: 500px;
+  margin-bottom: 10rem;
+  text-align: left;
+  margin-right: 0.5rem;
+  position: relative;
+
+}
+.pros-content{
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 5rem;
+}
+
+/* Features */
+
+#Features{
+  justify-content: center;
+  display:flex;
+
+}
+.para-features{
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+}
+.feature{
+  width: 18.75rem;
+  height: 15rem;
+  margin: 5px;
+}
+
+/* Testimonials */
+.testimonial-image{
+  margin: 2rem;
+}
+
+/* Footer */
+#Footer{
+  background-color: #F5F5F5;
+  margin-bottom: 0px;
+
+}
+.image-footer{
+  height:50px;
+  width:50px;
+  position: absolute;
+  left:10rem;
+}
+.links{
+  margin-right: 5rem;
+}
+.footer-links{
+  margin-left: 20rem;
+  text-align: left;
+  margin-right: 20rem;
+}
+a{
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+a:hover{
+  color:hsl(171, 66%, 44%);
+  text-decoration: none;
+}
+.footer-icons{
+  float: right;
+  margin-right: 5rem;
+}
+.footer-icon{
+  margin-right: 1rem;
+  align-items: baseline;
+  size:100px;
+}
+.footer-icon:hover{
+  color:hsl(171, 66%, 44%);
+}
+.foot{
+  display: flex;
+  margin-top: 5rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+
+
+
+
+@media  (max-width: 1200px) {
+body{
+  align: center;
+}
+
+.testimonial-image{
+  display: block;
+  margin-left: 15rem;
+  height: 7rem;
+  margin-bottom: 5rem;
+  align: center;
+  margin-left: auto;
+ margin-right: auto;
+ width: 40%;
+}
+#Features{
+  display: block;
+}
+.feature{
+  margin: 5rem 15rem 5rem 15rem;
+    height: auto;
+    width: auto;
+}
+.feature-image{
+  height: auto;
+  width: 30%;
+}
+#Pros{
+  display: block;
+}
+.pros-desktop{
+  height: 30rem;
+  width: 40rem;
+  left: 10rem;
+  display: block;
+}
+
+.image-pros{
+  height: 400px;
+  width: auto;
+  display: block;
+  float: none;
+  left: 20%;
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+
+.text-pros{
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 0rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.pros-content{
+  padding: inherit;
+}
+
+.buttons{
+  width: 100%;
+}
+.image-footer{
+  height:10rem;
+  width:auto;
+  position: static;
+  padding-bottom: 2.5rem;
+}
+.links{
+  margin-right: 0;
+  padding-top: 5rem;
+}
+.footer-links{
+  text-align: center;
+  display: block;
+}
+.footer-icons{
+  float: none;
+  margin-right: 0rem;
+  display: block;
+  padding-top: 2rem;
+}
+.footer-icon{
+  margin-right: 0rem;
+  align-items: none;
+  /* display: block; */
+}
+.footer-icon:hover{
+  color:hsl(171, 66%, 44%);
+}
+.foot{
+  display: block;
+  margin-top: 5rem;
+  padding-bottom: 0rem;
+  margin-right: 0rem;
+  padding-top: 0rem;
+  margin-left: 15rem;
+  line-height: 1.5;
+}
+#Footer{
+  background-color: white;
+}
+}
